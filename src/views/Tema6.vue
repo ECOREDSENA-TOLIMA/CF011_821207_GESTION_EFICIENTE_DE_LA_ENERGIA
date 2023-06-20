@@ -4,14 +4,14 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 2
-      h1 Sistemas y modelos de producción industrial
+        span 3
+      h1 Titulo de primer nivel
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema6',
   data: () => ({
     // variables de vue
   }),
