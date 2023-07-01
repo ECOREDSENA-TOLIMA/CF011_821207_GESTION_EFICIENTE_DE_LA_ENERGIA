@@ -10,10 +10,35 @@
     .row.mb-4
       .col-12(data-aos="fade-right")
         p Conozca la información que se plasma en el siguiente video sobre este tema, donde se ahondará un poco sobre la matriz de requisitos legales y normativos:
-      .col-12(data-aos="fade-right")
-        figure.mt-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
+      
+    .tarjeta.tarjeta--azul.p-4.mb-3(data-aos="fade-right")
+      SlyderA(tipo="b")
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12.mb-4.mb-md-0
+            p La identificación de los requisitos legales y/o normativos es una actividad de suma importancia para una empresa de cualquier índole, puesto que le permite reconocer los parámetros legales que aplican a las actividades que desarrolla en la producción de los bienes y servicios, enmarcados dentro de su Sistema Integrado de Gestión (SIG). 
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema5/tema5-32.png', alt='')
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12.mb-4.mb-md-0
+            p La matriz de requisitos legales y normativos es una herramienta dinámica, cuyo valor no solamente radica en ser un compilado de información que está disponible para consulta, sino también en ser un instrumento que reduce el riesgo de incumplir los requisitos legales y normativos pertinentes para la organización. 
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema5/tema5-33.png', alt='')
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12.mb-4.mb-md-0
+            p Matriz de requisitos legales: es un documento que reúne la información de normas, leyes, resoluciones, decretos y demás obligaciones aplicables a una empresa, cuyo objetivo es verificar y garantizar el cumplimiento de cada norma por parte de las áreas o departamentos que conforman la compañía. 
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema5/tema5-34.png', alt='')
+        .row.justify-content-center.align-items-center
+          .col-md-7.col-12.mb-4.mb-md-0
+            p Para finalizar, en la matriz de requisitos se evidencia el cumplimiento de normas aplicables y acordes con la naturaleza de la organización empresarial, así como también relacionada con su actividad productiva. 
+          .col-md-5.col-12
+            figure
+              img(src='@/assets/curso/temas/tema5/tema5-35.png', alt='')
+
+    .row.mb-4
       .col-12.mt-5(data-aos="fade-right")
         p De acuerdo con el Decreto 1072 de 2015, emitido por el Ministerio del Trabajo de Colombia, la definición de matriz de requisitos o matriz legal, disponible en artículo 2.2.4.6.2., es la siguiente:
 
@@ -25,7 +50,7 @@
             .row.justify-content-center.align-items-center
               .col-12.mb-4.mb-md-0
                 h4 Definición de matriz de requisitos o matriz legal, según Decreto 1072 de 2015 
-                p “24. Matriz legal: Es la compilación de los requisitos normativos exigibles a la empresa, acorde con las actividades propias e inherentes de su actividad productiva, los cuales dan los lineamientos normativos y técnicos para desarrollar el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), el cual deberá actualizarse en la medida que sean emitidas nuevas disposiciones aplicables” (Aliados en Tecnología y Calidad S.A.S, 2020). 
+                p “24. Matriz legal: es la compilación de los requisitos normativos exigibles a la empresa, acorde con las actividades propias e inherentes de su actividad productiva, los cuales dan los lineamientos normativos y técnicos para desarrollar el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), el cual deberá actualizarse en la medida que sean emitidas nuevas disposiciones aplicables” (Aliados en Tecnología y Calidad S.A.S, 2020). 
               .col-12.col-md-11
                 figure
                   img(src='@/assets/curso/temas/tema5/tema5-01.svg', alt='')
@@ -78,11 +103,12 @@
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.py-4
       .col-12.col-md-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 19.</b> <i>Matriz de requisitos legales</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 20.</b> <i>Matriz de requisitos legales</i> 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema5/tema5-08.svg')
-
-    p(data-aos="fade-left") Ahora bien, ¿cómo se sabe qué normatividad se debe incluir en una matriz de requisitos legales? En primer lugar, es importante entender que el enfoque de una matriz de requisitos legales es hacia las actividades que realiza la empresa. Estas actividades y sus respectivos procesos buscan verificar y evidenciar las mejoras que una empresa realiza para acreditar que cumple con las normas, leyes, resoluciones, decretos y demás obligaciones. 
+    .row 
+      .col.cajon-b.color-acento-contenido.py-3
+        p(data-aos="fade-left") Ahora bien, ¿cómo se sabe qué normatividad se debe incluir en una matriz de requisitos legales? En primer lugar, es importante entender que el enfoque de una matriz de requisitos legales es hacia las actividades que realiza la empresa. Estas actividades y sus respectivos procesos buscan verificar y evidenciar las mejoras que una empresa realiza para acreditar que cumple con las normas, leyes, resoluciones, decretos y demás obligaciones. 
     p.mb-5(data-aos="fade-left") A continuación, encontrará cuáles son las normas a tener en cuenta para desarrollar la matriz de requisitos legales de una empresa: 
 
     Separador
@@ -205,36 +231,68 @@
 
     p.mb-5(data-aos="fade-left") Para lograr un adecuado cumplimiento de esta matriz, se debe tener en cuenta: 
 
-    .row.justify-content-center.align-items-center
-      .col-md-5.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-17.svg', alt='')
-      .col-md-5.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-18.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-5.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-primario.p-5
+          .tarjeta-numerada__numero
+            .h2 A
+          p Inscribir en el formato de MRL las actividades, registros o soportes que se emplearán como evidencia de cumplimiento.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-36.png', alt='')
+
+      .col-md-5.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-secundario.p-5
+          .tarjeta-numerada__numero
+            .h2 B
+          p Realizar seguimiento al progreso de las actividades, vinculándolo con el plan de acción general del sistema. 
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-37.png', alt='')
 
     p.mb-5.mt-5(data-aos="fade-right") Para evaluar la MRL, existen varios métodos, el método es definido por cada organización, aunque no se ha establecido una metodología para ello. En este orden de ideas, se debe analizar la manera correcta de evaluar la MRL, sabiendo que la evaluación es definida por cada organización; sin embargo, se identifica una forma pertinente o recomendada para realizar este proceso, que consiste en:
 
-    .row.justify-content-center.align-items-center
-      .col-md-4.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-19.svg', alt='')
-      .col-md-4.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-20.svg', alt='')
-      .col-md-4.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-21.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-4.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-acento-botones.p-5.align-items-center
+          .tarjeta-numerada__numero
+            .h2 A
+          p.mb-5 Contratación de una auditoría legal externa.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-38.png', alt='')
+
+      .col-md-4.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-secundario.p-5.align-items-center
+          .tarjeta-numerada__numero
+            .h2 B
+          p Verificación de cada uno de los registros del cuadro de la matriz para reafirmar y registrar la evidencia de cumplimiento.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-39.png', alt='')
+
+      .col-md-4.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-primario.p-5.align-items-center
+          .tarjeta-numerada__numero
+            .h2 C
+          p.mb-5 Aplicación de listas de chequeo.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-40.png', alt='')
 
     p.mb-5.mt-5(data-aos="fade-right") Otros aspectos útiles para la evaluación de la MRL son:
 
-    .row.justify-content-center.align-items-center
-      .col-md-5.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-22.svg', alt='')
-      .col-md-5.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema5/tema5-23.svg', alt='')
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-5.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-acento-botones.p-5
+          .tarjeta-numerada__numero
+            .h2 A
+          p.mb-3 Auditorías externas e internas.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-41.png', alt='')
+
+      .col-md-5.col-12.mb-4.mb-xl-0.align-self-stretch.mb-3(data-aos="fade-down")
+        .tarjeta-numerada.color-secundario.p-5
+          .tarjeta-numerada__numero
+            .h2 B
+          p.mb-3 Indicadores.
+          figure
+            img(src='@/assets/curso/temas/tema5/tema5-42.png', alt='')
 
     p.mb-5.mt-5(data-aos="fade-right") Pero, ¿qué se evalúa en la matriz legal? Revise la siguiente información para tener claridad al momento de responder esta pregunta:
 
@@ -288,7 +346,7 @@
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.pb-4
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 20.</b> <i>Matriz de requisitos legales IBAL</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 21.</b> <i>Matriz de requisitos legales IBAL</i> 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema5/tema5-29.png')
           figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
@@ -297,7 +355,7 @@
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 21.</b> <i>Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 22.</b> <i>Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander</i> 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema5/tema5-30.png')
           figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
@@ -305,7 +363,7 @@
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.mt-5
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 22.</b> <i>Matriz de requisitos legales INVAMER</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 23.</b> <i>Matriz de requisitos legales INVAMER</i> 
         figure(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema5/tema5-31.png')
           figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86

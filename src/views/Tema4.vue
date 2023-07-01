@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 4
       h1 Objetivos y metas sectoriales del Programa de Uso Racional y Eficiente de la Energía (PROURE) en Colombia
+
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-01.png')})`}"
@@ -15,13 +16,44 @@
     .row.mb-4
       .col-12(data-aos="fade-right")
         p Puntualmente, los objetivos de eficiencia energética plasmados en el PAI-PROURE 2017-2022 son los siguientes:
-      .col-12(data-aos="fade-right")
-        figure.mt-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-    
+
+    .tarjeta.tarjeta--gris.p-4(data-aos="fade-down")
+      PasosB.color-acento-contenido
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p La eficiencia energética es considerada como un mecanismo para asegurar el abastecimiento energético, articulándose con esta estrategia por medio de nuevas tecnologías y buenos hábitos de consumo. 
+            p Igualmente, se puede considerar como una forma de incrementar la competitividad y productividad nacional. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema4/tema4-24.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Actualmente, se consumen diversos recursos energéticos y, a través del mecanismo de eficiencia energética, se busca usar la menor cantidad posible de estos; son costosos, difíciles de producir y generan partículas y gases cuyo efecto es nocivo para el planeta y para el ser humano. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema4/tema4-25.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Hoy, se utilizan muchos recursos energéticos y la tecnología ha evolucionado para proveer una mejor calidad de vida. Sin embargo, muchos de los equipos usan más energía de la que deberían, lo que conlleva la necesidad de que a largo plazo los equipos sean más eficientes. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema4/tema4-26.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p El Plan de Acción Indicativo - PAI presenta las medidas de eficiencia energética a implementarse en el corto y mediano plazo, además de los escenarios de largo plazo para el país.  
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema4/tema4-27.png', alt='')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            p Para finalizar, el objetivo principal del documento es precisar las estrategias para alcanzar las metas en materia de eficiencia energética, para asegurar la seguridad energética, cumplir con compromisos internacionales de desempeño ambiental y contribuir positivamente con la competitividad del país y la mejora en la calidad de vida de los colombianos. 
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema4/tema4-28.png', alt='')
+
+    .row.mb-4
       .col-12(data-aos="fade-down")
-        p.mt-5 El PAI fue adoptado mediante la Resolución del Ministerio de Minas y Energía (MME) 41286 de 2016 para el desarrollo del PROURE.
+        p.mt-5 #[sup 1]El PAI fue adoptado mediante la Resolución del Ministerio de Minas y Energía (MME) 41286 de 2016 para el desarrollo del PROURE.
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.titulo-sexto.color-acento-contenido.mt-2(data-aos="fade-right")
@@ -59,17 +91,17 @@
 
       .col-12.px-0(data-aos="fade-left")
         p El propósito de este componente es presentar de una manera general los objetivos y metas sectoriales del PROURE, de acuerdo con lo establecido en el Plan de Acción Indicativo (PAI). Como primer paso, observe el contexto actual del sistema energético nacional y sus principales necesidades:
-        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética , la energía útil estuvo representada por un 48 %, mientras que las pérdidas fueron equivalentes al 52 %. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
+        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética , la energía útil estuvo representada por un 48%, mientras que las pérdidas fueron equivalentes al 52%. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
       
-      .col-12-12.px-0.py-4.degrade-1
-        p #[sup 2]La matriz energética es una representación cuantitativa de todas las fuentes de energía que se utilizan en una zona geográfica, que puede ser un país, un continente o el mundo. Muestra los consumos de cada tipo de energía: combustibles fósiles (petróleo, gas, carbón), hidráulica, solar, eólica, biomasa, geotérmica, etc., que apliquen.
+      .col-12-12.px-0.py-4.cajon-b.color-primario
+          p #[sup 2]La matriz energética es una representación cuantitativa de todas las fuentes de energía que se utilizan en una zona geográfica, que puede ser un país, un continente o el mundo. Muestra los consumos de cada tipo de energía: combustibles fósiles (petróleo, gas, carbón), hidráulica, solar, eólica, biomasa, geotérmica, etc., que apliquen.
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.py-0
       .col-12.col-md-8
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 6.</b> <i>Consumo energético BECO 2015</i> 
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema4/tema4-02.png')
+          img(src='@/assets/curso/temas/tema4/tema4-02.svg')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.mt-4
         p(data-aos="fade-left") El consumo de energía final en Colombia, de acuerdo con el balance de 2015, superó el millón de Terajulios (1.219.827 TJ). Respecto a dicho consumo, la mayor parte de la energía consumida fue por cuenta del sector transporte, como se observa en la siguiente figura:  
@@ -78,10 +110,11 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Distribución de Consumo de Energía Final. Colombia - 2015</i> 
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema4/tema4-02.png')
+          img(src='@/assets/curso/temas/tema4/tema4-29.png')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.col-md-6(data-aos="fade-right")
-        p.mb-0 En esta figura, se observan los cuatro principales sectores consumidores del país: el sector transporte (41%), el industrial (29,4%), residencial (16,7%) y comercial y público o también llamado terciario (5,32%). En adelante, el interés de este documento se centra en estos cuatro grandes consumidores; se presentan las características del consumo de energía final por sector.
+        p En esta figura, se observan los cuatro principales sectores consumidores del país: el sector transporte (41%), el industrial (29,4%), residencial (16,7%) y comercial y público o también llamado terciario (5,32%). 
+        p En adelante, el interés de este documento se centra en estos cuatro grandes consumidores; se presentan las características del consumo de energía final por sector.
 
     Separador
     #t_4_1.titulo-segundo.color-acento-botones.mt-4(data-aos="fade-right")
@@ -115,7 +148,7 @@
         p A partir del balance realizado en 2015, se encontró un consumo final del sector transporte cercano a los 496.000 TJ, con los combustibles fósiles como principales energéticos. La gasolina a motor y el ACPM son los combustibles más usados en el transporte nacional, responsables de un 40% y 37% del consumo, respectivamente. 
         p La gasolina se consume principalmente en carros particulares, con un porcentaje aproximado del 83%. Mientras que el ACPM, con el 88% de participación, es mayormente usado en transporte de carga y transporte público para la comunidad en general. Por otro lado, la participación de la electricidad es del 1% del consumo, aproximadamente. Cabe mencionar que se utilizan también biocombustibles, como el alcohol carburante y el biodiesel, cuyo consumo de energía del sector transporte figura en el 2% y 5%, respectivamente.
       .col-12(data-aos="fade-right")
-        p La participación de los energéticos anteriormente mencionados se muestra en la siguiente figura: 
+        p.mt-3 La participación de los energéticos anteriormente mencionados se muestra en la siguiente figura: 
 
     .row.justify-content-center.align-items-center.mb-5.p-4.py-0
       .col-12.col-md-6
@@ -197,7 +230,7 @@
                 td.td-dos-table.px-3 Confección de prendas de vestir
               tr
                 td.td-uno-table 15 
-                td.td-dos-table.px-3 Curtido y recurtido de cuero; fabricación de calzado; fabricación de artículos de viaje.maletas,bolsos de mano y artículos similares, y fabricación de artículos de talabartería y guamicionen'a; adobo y teñido de pieles
+                td.td-dos-table.px-3 Curtido y recurtido de cuero; fabricación de calzado; fabricación de artículos de viaje.maletas,bolsos de mano y artículos similares, y fabricación de artículos de talabartería y guardicionería; adobo y teñido de pieles
               tr
                 td.td-uno-table 16
                 td.td-dos-table.px-3 Transformación de la madera y fabricación de productos de madera y corcho;excepto muebles; fabricación de artículos de cestería y espartería
@@ -209,7 +242,7 @@
                 td.td-dos-table.px-3 Actividades de impresión y de producción de copias a partir de grabaciones originales
               tr
                 td.td-uno-table 19 
-                td.td-dos-table.px-3 Coquización, fabricación de productos de la refinación delpetróleo y actividad de mezcla de combustibles
+                td.td-dos-table.px-3 Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles
               tr
                 td.td-uno-table 20
                 td.td-dos-table.px-3 Fabricación de sustancias y productos químicos
@@ -575,9 +608,9 @@
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.py-4
       .col-12.col-md-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 18.</b> <i>Consumo de energía en el sector residencial urbano - Colombia</i> 
+          p.titulo.pb-0.mb-0 <b>Figura 19.</b> <i>Consumo de energía en el sector residencial urbano - Colombia</i> 
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema4/tema4-23.png')
+          img(src='@/assets/curso/temas/tema4/tema4-23.svg')
           figcaption Nota. Tomada de UPME (2021).
 
 

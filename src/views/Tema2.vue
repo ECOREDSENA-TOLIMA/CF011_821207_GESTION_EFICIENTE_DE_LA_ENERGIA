@@ -10,7 +10,7 @@
       
     .row.justify-content-center.align-items-center.mb-4.mt-5
       .col-md-7.col-12.pr-4(data-aos="fade-right")
-        p Después de abarcar la teoría de la organización y los tipos de estructura organizacional existentes, el siguiente tema del que se hablará son #[span.clase-intro-text los sistemas y modelos de producción industrial,] de modo que sea posible identificar los elementos que aportan una ventaja competitiva a las organizaciones y que les otorgan una mayor rentabilidad, mayor eficiencia o unos estándares de calidad superiores a los de su competencia.
+        p Después de abarcar la teoría de la organización y los tipos de estructura organizacional existentes, el siguiente tema del que se hablará son #[strong los sistemas y modelos de producción industrial,] de modo que sea posible identificar los elementos que aportan una ventaja competitiva a las organizaciones y que les otorgan una mayor rentabilidad, mayor eficiencia o unos estándares de calidad superiores a los de su competencia. 
         p Es importante señalar que, aunque este tema se acota al sector industrial, por desarrollar actividades puntuales de transformación, puede tener implicaciones en otros sectores de la economía, como el sector servicios.
       .col-md-5.col-12(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema2/tema2-01.png", alt="alt")
@@ -23,10 +23,32 @@
       .col-12(data-aos="fade-right")
         p ¿Sabe qué son los sistemas y modelos de producción industrial? A continuación, conocerá un poco al respecto:
       .col-12(data-aos="fade-right")
-        figure.mt-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-    
+
+      SlyderF.mb-5.mt-4(columnas="col-lg-6 col-xl-4" data-aos="fade-down")
+        .tarjeta.tarjeta--azul.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/tema2-15.svg' alt='')
+          p.text-center Para empezar, se define los sistemas y modelos de producción industrial como un conjunto de elementos relacionados y organizados en los que interactúan insumos (materia prima, materiales). 
+
+        .tarjeta.tarjeta--azul.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/tema2-16.svg' alt='')
+          p.text-center Se toma como ejemplo una fábrica o industria, en la cual las personas utilizan sus capacidades individuales, maquinaria y equipo, como también estilos de liderazgo, para la elaboración de bienes y/o servicios destinados para la venta. 
+
+        .tarjeta.tarjeta--azul.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/tema2-18.svg' alt='')
+          p.text-center Una vez se realiza este ciclo y repetido dentro de la organización, es posible optimizar y/o transformar los procesos, para garantizar una mayor eficiencia en términos de tiempos, costos de entrega y calidad. 
+
+        .tarjeta.tarjeta--azul.p-4
+          .row.justify-content-center.mb-3
+            .col-8
+              img(src='@/assets/curso/temas/tema2/tema2-17.svg' alt='')
+          p.text-center Para finalizar, es posible identificar en detalle cada una de las variables que intervienen en las actividades laborales y agregar mejoras significativas o nuevos y mejores métodos. 
+
     .row.justify-content-center.align-items-center.mb-4.mt-5
       .col-md-5.col-12(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema2/tema2-02.png", alt="alt")
@@ -131,7 +153,7 @@
       .col-12(data-aos="fade-right")
         p.mt-5 Otro subtema que se abordará en esta sección son los diagramas de flujo o de proceso. 
       .col-12(data-aos="fade-right")
-        p.mb-0 #[span.clase-intro-text El diagrama de flujo o de proceso] es una herramienta visual que muestra una secuencia detallada de cada una de las actividades que se realizan en el marco de un proceso específico, así como las inspecciones y los tiempos de trabajo que van desde la llegada de los insumos o materiales hasta el embalaje del producto terminado. Su importancia radica en que ofrece detalles de todo el proceso de manufactura. 
+        p.mb-0 #[strong El diagrama de flujo o de proceso] es una herramienta visual que muestra una secuencia detallada de cada una de las actividades que se realizan en el marco de un proceso específico, así como las inspecciones y los tiempos de trabajo que van desde la llegada de los insumos o materiales hasta el embalaje del producto terminado. Su importancia radica en que ofrece detalles de todo el proceso de manufactura. 
         p A través de este diagrama, es posible ver en qué consiste el proceso y cómo se relacionan entre sí las diferentes actividades que lo componen; es de especial utilidad para analizar y mejorar el proceso en general. 
         p En la figura que se muestra más adelante, se expone el ejemplo de un diagrama de flujo para el proceso de diseño de un producto concreto, en ella también se exponen los símbolos más usados para su elaboración con su respectivo significado: el rombo representa los puntos de decisión o verificación, mientras que el rectángulo representa una tarea u operación, y por último, el círculo representa los puntos de inicio y fin del proceso, así como los insumos y resultados. 
     

@@ -18,15 +18,35 @@
     Separador
     #t_1_1.titulo-segundo.color-acento-botones.mt-4(data-aos="fade-right")
       h2 1.1 Concepto de organización
+    .row.mb-2
+      .col-12(data-aos="fade-right")
+        p.mb-5 Se invita a revisar el siguiente contenido sobre el concepto de organización:
+      .col-12.col-md-7(data-aos="fade-right")
+        TabsA.color-acento-botones.mb-5
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Definición Organización")
+            h4 Definición Organización
+            p Para empezar, definiremos organización como una colectividad de personas que tienen objetivos comunes e interactúan en función de un sistema que se compone de tres elementos fundamentales. 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Entradas")
+            h4 Entradas
+            p El primer elemento son las entradas, compuestas por los insumos utilizados para la producción de bienes y/o servicios. 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Procesos")
+            h4 Procesos
+            p El segundo elemento son los procesos, resultado de la articulación de recursos que tiene a su disposición la organización. 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Salidas")
+            h4 Salidas 
+            p Finalmente, el tercer elemento son las salidas, constituidas por los bienes y/o servicios elaborados. 
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Recursos tangibles e intangibles")
+            h4 Recursos tangibles e intangibles
+            p.mb-0 Dentro de una organización, los recursos pueden ser tangibles, como las instalaciones, equipos de cómputo, medios de comunicación y transporte, mobiliario y equipos. 
+            p Como también pueden ser intangibles, como el conocimiento acumulado que se genera a partir de la interacción de las personas con los demás recursos.
+          .tarjeta.color-acento-botones--borde.p-4(titulo="Ejemplos de organización empresarial")
+            h4 Ejemplos de organización empresarial 
+            p Las instituciones de educación superior, las entidades gubernamentales (alcaldías, gobernaciones) y los centros comerciales son algunos ejemplos de organización empresarial; y son considerados como tal porque reúnen tres características esenciales. 
+      .col-12.col-md-5.d-none.d-md-block(data-aos="fade-right")
+        img(src="@/assets/curso/temas/tema1/tema1-22.svg", alt="")
+
     .row.mb-4
       .col-12(data-aos="fade-right")
-        p Se invita a revisar el siguiente contenido sobre el concepto de organización:
-      .col-12(data-aos="fade-right")
-        figure.mt-4
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)      
-    
-      .col-12.mt-5(data-aos="fade-right")
         p A continuación, puede observar las características de las organizaciones empresariales:
 
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-right")
@@ -60,14 +80,14 @@
           h4.text-center a. Según la actividad que realizan o el giro económico, en:
           div.text-left 
             ul.lista-ul
-              li.lista-ul__vineta.mb-0 #[strong industriales] (extractivas, manufactureras).
-              li.lista-ul__vineta.mb-0 #[strong comerciales] (mayoristas, minoristas).
-              li.lista-ul__vineta #[strong de servicios] (educación, transporte, turismo, salud, financieros).
+              li.lista-ul__vineta.mb-0 #[strong Industriales] (extractivas, manufactureras).
+              li.lista-ul__vineta.mb-0 #[strong Comerciales] (mayoristas, minoristas).
+              li.lista-ul__vineta #[strong De servicios] (educación, transporte, turismo, salud, financieros).
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema1/tema1-03.svg' alt='AvatarTop')
         .tarjeta.color-tarjeta.p-4
           h4.text-center b. Según el volumen de ventas o el número de empleados, en:
-          p.mt-4.text-center micro, pequeñas, medianas y grandes.
+          p.mt-4.text-center Micro, pequeñas, medianas y grandes.
       .tarjeta-avatar
         img(src='@/assets/curso/temas/tema1/tema1-04.svg' alt='AvatarTop')
         .tarjeta.color-tarjeta.p-4
@@ -82,7 +102,7 @@
         img(src='@/assets/curso/temas/tema1/tema1-05.svg' alt='AvatarTop')
         .tarjeta.color-tarjeta.p-4
           h4.text-center d. Según el origen del capital:
-          p las organizaciones también se denominan públicas (capital del Estado), privadas (capital de terceros o particulares) o mixtas (capital de Estado y de terceros).
+          p Las organizaciones también se denominan públicas (capital del Estado), privadas (capital de terceros o particulares) o mixtas (capital de Estado y de terceros).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12
@@ -103,8 +123,8 @@
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Límites de la organización 
-            p Los límites que tiene cada organización están marcados por su ambiente próximo o de tarea, definido por sus grupos de interés o stakeholders internos y externos:
-            h4 Stakeholders internos 
+            p Los límites que tiene cada organización están marcados por su ambiente próximo o de tarea, definido por sus grupos de interés o #[i stakeholders] internos y externos:
+            h4 #[i Stakeholders] internos 
             p Empleados (o colaboradores), líderes de proceso (o jefes de área / departamento) y gerentes.
           .col-md-6
             figure
@@ -112,7 +132,7 @@
 
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4 Stakeholders externos 
+            h4 #[i Stakeholders] externos 
             p Clientes, proveedores, distribuidores, entes gubernamentales reguladores y sociedad en general. 
           .col-md-6
             figure

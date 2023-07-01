@@ -159,7 +159,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 5.</b> <i>PIB ramas de actividad económica</i> 
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema3/tema3-19.png')
+          img(src='@/assets/curso/temas/tema3/tema3-19.svg')
           figcaption Nota. Tomada de Quintero y León (2018). 
 
     Separador
