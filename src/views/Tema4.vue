@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-01.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p Uno de los antecedentes más importantes en materia de eficiencia energética en Colombia es la creación del Programa de Uso Racional y Eficiente de la Energía – PROURE, el cual comprende las directrices de política pública orientadas a fomentar el uso eficiente de los recursos energéticos, comprendiendo desde su producción hasta el uso final, en las distintas actividades económicas del país. Ahora bien, las metas de ahorro de energía para estas actividades y diferentes sectores de la economía y las acciones estratégicas encaminadas a cumplirlas están definidas dentro del documento Plan de Acción Indicativo (PAI) PROURE , establecido para el periodo entre 2017 y 2022.
+        p Uno de los antecedentes más importantes en materia de eficiencia energética en Colombia es la creación del Programa de Uso Racional y Eficiente de la Energía – PROURE, el cual comprende las directrices de política pública orientadas a fomentar el uso eficiente de los recursos energéticos, comprendiendo desde su producción hasta el uso final, en las distintas actividades económicas del país. Ahora bien, las metas de ahorro de energía para estas actividades y diferentes sectores de la economía y las acciones estratégicas encaminadas a cumplirlas están definidas dentro del documento Plan de Acción Indicativo (PAI) PROURE#[sup 1], establecido para el periodo entre 2017 y 2022.
     .row.mb-4
       .col-12(data-aos="fade-right")
         p Puntualmente, los objetivos de eficiencia energética plasmados en el PAI-PROURE 2017-2022 son los siguientes:
@@ -20,34 +20,34 @@
     .tarjeta.tarjeta--gris.p-4(data-aos="fade-down")
       PasosB.color-acento-contenido
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.col-10.mb-4.mb-md-0
             p La eficiencia energética es considerada como un mecanismo para asegurar el abastecimiento energético, articulándose con esta estrategia por medio de nuevas tecnologías y buenos hábitos de consumo. 
             p Igualmente, se puede considerar como una forma de incrementar la competitividad y productividad nacional. 
-          .col-md-6
+          .col-md-6.col-10
             figure
               img(src='@/assets/curso/temas/tema4/tema4-24.png', alt='')
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.col-10.mb-4.mb-md-0
             p Actualmente, se consumen diversos recursos energéticos y, a través del mecanismo de eficiencia energética, se busca usar la menor cantidad posible de estos; son costosos, difíciles de producir y generan partículas y gases cuyo efecto es nocivo para el planeta y para el ser humano. 
-          .col-md-6
+          .col-md-6.col-10
             figure
               img(src='@/assets/curso/temas/tema4/tema4-25.png', alt='')
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.col-10.mb-4.mb-md-0
             p Hoy, se utilizan muchos recursos energéticos y la tecnología ha evolucionado para proveer una mejor calidad de vida. Sin embargo, muchos de los equipos usan más energía de la que deberían, lo que conlleva la necesidad de que a largo plazo los equipos sean más eficientes. 
-          .col-md-6
+          .col-md-6.col-10
             figure
               img(src='@/assets/curso/temas/tema4/tema4-26.png', alt='')
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.col-10.mb-4.mb-md-0
             p El Plan de Acción Indicativo - PAI presenta las medidas de eficiencia energética a implementarse en el corto y mediano plazo, además de los escenarios de largo plazo para el país.  
-          .col-md-6
+          .col-md-6.col-10
             figure
               img(src='@/assets/curso/temas/tema4/tema4-27.png', alt='')
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-md-6.col-10.mb-4.mb-md-0
             p Para finalizar, el objetivo principal del documento es precisar las estrategias para alcanzar las metas en materia de eficiencia energética, para asegurar la seguridad energética, cumplir con compromisos internacionales de desempeño ambiental y contribuir positivamente con la competitividad del país y la mejora en la calidad de vida de los colombianos. 
-          .col-md-6
+          .col-md-6.col-10
             figure
               img(src='@/assets/curso/temas/tema4/tema4-28.png', alt='')
 
@@ -91,7 +91,7 @@
 
       .col-12.px-0(data-aos="fade-left")
         p El propósito de este componente es presentar de una manera general los objetivos y metas sectoriales del PROURE, de acuerdo con lo establecido en el Plan de Acción Indicativo (PAI). Como primer paso, observe el contexto actual del sistema energético nacional y sus principales necesidades:
-        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética , la energía útil estuvo representada por un 48%, mientras que las pérdidas fueron equivalentes al 52%. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
+        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética#[sup 2], la energía útil estuvo representada por un 48%, mientras que las pérdidas fueron equivalentes al 52%. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
       
       .col-12-12.px-0.py-4.cajon-b.color-primario
           p #[sup 2]La matriz energética es una representación cuantitativa de todas las fuentes de energía que se utilizan en una zona geográfica, que puede ser un país, un continente o el mundo. Muestra los consumos de cada tipo de energía: combustibles fósiles (petróleo, gas, carbón), hidráulica, solar, eólica, biomasa, geotérmica, etc., que apliquen.
@@ -110,7 +110,7 @@
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 7.</b> <i>Distribución de Consumo de Energía Final. Colombia - 2015</i> 
         figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema4/tema4-29.png')
+          img(src='@/assets/curso/temas/tema4/tema4-29.svg')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.col-md-6(data-aos="fade-right")
         p En esta figura, se observan los cuatro principales sectores consumidores del país: el sector transporte (41%), el industrial (29,4%), residencial (16,7%) y comercial y público o también llamado terciario (5,32%). 
@@ -148,20 +148,20 @@
         p A partir del balance realizado en 2015, se encontró un consumo final del sector transporte cercano a los 496.000 TJ, con los combustibles fósiles como principales energéticos. La gasolina a motor y el ACPM son los combustibles más usados en el transporte nacional, responsables de un 40% y 37% del consumo, respectivamente. 
         p La gasolina se consume principalmente en carros particulares, con un porcentaje aproximado del 83%. Mientras que el ACPM, con el 88% de participación, es mayormente usado en transporte de carga y transporte público para la comunidad en general. Por otro lado, la participación de la electricidad es del 1% del consumo, aproximadamente. Cabe mencionar que se utilizan también biocombustibles, como el alcohol carburante y el biodiesel, cuyo consumo de energía del sector transporte figura en el 2% y 5%, respectivamente.
       .col-12(data-aos="fade-right")
-        p.mt-3 La participación de los energéticos anteriormente mencionados se muestra en la siguiente figura: 
+        p.mt-3 La participación de los energéticos anteriormente mencionados se muestra en las siguientes figuras: 
 
     .row.justify-content-center.align-items-center.mb-5.p-4.py-0
       .col-12.col-md-6
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 8.</b> <i>Distribución del consumo por energético en el sector transporte - 2015</i> 
         figure(data-aos="fade-right")
-          img(src='@/assets/curso/temas/tema4/tema4-05.png')
+          img(src='@/assets/curso/temas/tema4/tema4-05.svg')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.col-md-6(data-aos="fade-right")
-        p.titulo.pb-0.mb-0 <b>Figura 9.</b> <i>Distribución del consumo de energía por modo de transporte - 2015</i> 
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema4/tema4-06.png')
-          figcaption Nota. Tomada de UPME (2016).
+        .titulo-sexto.color-acento-contenido <b>Figura 9.</b> <i>Distribución del consumo de energía por modo de transporte - 2015</i> 
+        figure.mt-md-4(data-aos="fade-left")
+          img(src='@/assets/curso/temas/tema4/tema4-06.svg')
+          figcaption.mt-md-4 Nota. Tomada de UPME (2016).
     .row 
       .col-12
         p El sector transporte comprende los subsectores aéreo, marítimo, ferroviario y carretero. El subsector de transporte por carretera es el que mayor participación tiene en el consumo energético del sector, con un 88%. 
@@ -215,70 +215,70 @@
             tbody
               tr
                 td.td-uno-table 10
-                td.td-dos-table.px-3 Elaboración de productos alimenticios
+                td.td-dos-table.px-3 Elaboración de productos alimenticios.
               tr
                 td.td-uno-table 11
-                td.td-dos-table.px-3 Elaboración de bebidas
+                td.td-dos-table.px-3 Elaboración de bebidas.
               tr
                 td.td-uno-table 12
-                td.td-dos-table.px-3 Elaboración de productos de tabaco
+                td.td-dos-table.px-3 Elaboración de productos de tabaco.
               tr
                 td.td-uno-table 13
-                td.td-dos-table.px-3 Fabricación de productos textiles
+                td.td-dos-table.px-3 Fabricación de productos textiles.
               tr
                 td.td-uno-table 14
-                td.td-dos-table.px-3 Confección de prendas de vestir
+                td.td-dos-table.px-3 Confección de prendas de vestir.
               tr
                 td.td-uno-table 15 
-                td.td-dos-table.px-3 Curtido y recurtido de cuero; fabricación de calzado; fabricación de artículos de viaje.maletas,bolsos de mano y artículos similares, y fabricación de artículos de talabartería y guardicionería; adobo y teñido de pieles
+                td.td-dos-table.px-3 Curtido y recurtido de cuero; fabricación de calzado; fabricación de artículos de viaje; maletas, bolsos de mano y artículos similares, y fabricación de artículos de talabartería y guarnicionería; adobo y teñido de pieles.
               tr
                 td.td-uno-table 16
-                td.td-dos-table.px-3 Transformación de la madera y fabricación de productos de madera y corcho;excepto muebles; fabricación de artículos de cestería y espartería
+                td.td-dos-table.px-3 Transformación de la madera y fabricación de productos de madera y corcho; excepto muebles; fabricación de artículos de cestería y espartería.
               tr
                 td.td-uno-table 17
-                td.td-dos-table.px-3 Fabricación de papel,cartón y productos de papel y cartón
+                td.td-dos-table.px-3 Fabricación de papel, cartón y productos de papel y cartón.
               tr
                 td.td-uno-table 18
-                td.td-dos-table.px-3 Actividades de impresión y de producción de copias a partir de grabaciones originales
+                td.td-dos-table.px-3 Actividades de impresión y de producción de copias a partir de grabaciones originales.
               tr
                 td.td-uno-table 19 
-                td.td-dos-table.px-3 Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles
+                td.td-dos-table.px-3 Coquización, fabricación de productos de la refinación del petróleo y actividad de mezcla de combustibles.
               tr
                 td.td-uno-table 20
-                td.td-dos-table.px-3 Fabricación de sustancias y productos químicos
+                td.td-dos-table.px-3 Fabricación de sustancias y productos químicos.
               tr
                 td.td-uno-table 21
-                td.td-dos-table.px-3 Fabricación de productos farmacéuticos,sustancias químicas medicinales y productos botán icosde uso farmacéutico
+                td.td-dos-table.px-3 Fabricación de productos farmacéuticos, sustancias químicas medicinales y productos botánicos de uso farmacéutico.
               tr
                 td.td-uno-table 22
-                td.td-dos-table.px-3 Fabricación de productos de caucho y de plástico
+                td.td-dos-table.px-3 Fabricación de productos de caucho y de plástico.
               tr
                 td.td-uno-table 23
-                td.td-dos-table.px-3 Fabricación de otros productos mineralesno metálicos
+                td.td-dos-table.px-3 Fabricación de otros productos minerales no metálicos.
               tr
                 td.td-uno-table 24
-                td.td-dos-table.px-3 Fabricación de productos metalúrg icos básicos
+                td.td-dos-table.px-3 Fabricación de productos metalúrgicos básicos.
               tr
                 td.td-uno-table 25
-                td.td-dos-table.px-3 Fabricación de productos elaborados de metal, excepto maquinaria y equipo
+                td.td-dos-table.px-3 Fabricación de productos elaborados de metal, excepto maquinaria y equipo.
               tr
                 td.td-uno-table 26
-                td.td-dos-table.px-3 Fabricación de productos informáticos, electrónicosy ópticos
+                td.td-dos-table.px-3 Fabricación de productos informáticos, electrónicos y ópticos.
               tr
                 td.td-uno-table 27
-                td.td-dos-table.px-3 Fabricación de aparatos y equipo eléctrico
+                td.td-dos-table.px-3 Fabricación de aparatos y equipo eléctrico.
               tr
                 td.td-uno-table 28
                 td.td-dos-table.px-3 Fabricación de maquinaria y equipo n.c.p.
               tr
                 td.td-uno-table 29
-                td.td-dos-table.px-3 Fabricación de vehículos automotores,remolques y semirremolques
+                td.td-dos-table.px-3 Fabricación de vehículos automotores, remolques y semirremolques.
               tr
                 td.td-uno-table 30
-                td.td-dos-table.px-3 Fabricación de otros tipos de equipo de transporte
+                td.td-dos-table.px-3 Fabricación de otros tipos de equipo de transporte.
               tr
                 td.td-uno-table 31
-                td.td-dos-table.px-3 Fabricación de muebles,colchones y somieres
+                td.td-dos-table.px-3 Fabricación de muebles, colchones y somieres.
 
 	
     .row.justify-content-center.align-items-center.mt-0.mb-4(data-aos="fade-left")
@@ -312,7 +312,7 @@
       .col-12.col-md-6
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 11.</b> <i>Participación de consumo de energía en sector industrial por energético - 2014</i> 
-        figure(data-aos="fade-left")
+        figure.mt-md-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/tema4/tema4-10.png')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.col-md-6
@@ -408,7 +408,7 @@
           .py-3.py-md-4(titulo="Medidas relacionadas con gestión de la energía")
             .row
               .col-12
-                p Implementar un sistema de gestión de la energía
+                p Implementar un sistema de gestión de la energía.
 
     Separador
     #t_4_3.titulo-segundo.color-acento-botones.mt-4(data-aos="fade-right")
@@ -429,10 +429,10 @@
             tbody
               tr
                 td.td-uno-table 50
-                td.td-dos-table.px-3 Comercio, mantenimiento y reparación de vehiculos automotoresy motocicletas, sus partes, piezas y accesorios:comercio al por menor de combustibles y lubricantes para vehiculos automotores.
+                td.td-dos-table.px-3 Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios: comercio al por menor de combustibles y lubricantes para vehiculos automotores.
               tr
                 td.td-uno-table 51
-                td.td-dos-table.px-3 Comercio al por mayor y en comisión o por contrato.excepto el comercio de vehfculosautomotores y motocicletas; mantenimiento y reparación de maquinaria y equipo.
+                td.td-dos-table.px-3 Comercio al por mayor y en comisión o por contrato, excepto el comercio de vehículos automotores y motocicletas; mantenimiento y reparación de maquinaria y equipo.
               tr
                 td.td-uno-table 52
                 td.td-dos-table.px-3 Comercio al por menor, excepto el comercio de vehículos automotores y motocicletas: reparación de efectos personales y enseres domésticos.
@@ -453,7 +453,7 @@
                 td.td-dos-table.px-3 Financiación de planes de seguros y pensiones, excepto la seguridad social de afiliación obligatoria.
               tr
                 td.td-uno-table 67
-                td.td-dos-table.px-3 Actividades auxiliaresde la intermediación financiera.
+                td.td-dos-table.px-3 Actividades auxiliares de la intermediación financiera.
               tr
                 td.td-uno-table 70
                 td.td-dos-table.px-3 Actividades inmobiliarias.
@@ -492,7 +492,7 @@
         div.py-2.px-3.pe-5
           h4.mb-0 Consumo
 
-    p(data-aos="fade-left") La caracterización hecha por la UPME de los usos de los principales energéticos consumidos por el sector terciario se muestra en la Figura 20. Se observa que los energéticos más usados son la energía eléctrica, gas natural y gas licuado de petróleo (GLP). La electricidad es principalmente consumida para iluminación (31 %), aire acondicionado (22.8 %) y refrigeración (13.9 %). El uso de gas natural es en aplicaciones de calor directo (cocción de alimentos, climatización de piscinas, calentamiento de agua doméstica, etc.) y de calor indirecto (esterilización y lavandería, en clínicas, hoteles, clubes, entre otros). #[span.clase-intro-text Por su parte, la distribución de los consumos se muestra en la Figura 16].
+    p(data-aos="fade-left") La caracterización hecha por la UPME de los usos de los principales energéticos consumidos por el sector terciario se muestra en la Figura 15. Se observa que los energéticos más usados son la energía eléctrica, gas natural y gas licuado de petróleo (GLP). La electricidad es principalmente consumida para iluminación (31 %), aire acondicionado (22.8 %) y refrigeración (13.9 %). El uso de gas natural es en aplicaciones de calor directo (cocción de alimentos, climatización de piscinas, calentamiento de agua doméstica, etc.) y de calor indirecto (esterilización y lavandería, en clínicas, hoteles, clubes, entre otros). #[span.clase-intro-text Por su parte, la distribución de los consumos se muestra en la Figura 16].
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.py-3
       .col-12.col-md-6

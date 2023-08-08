@@ -139,8 +139,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo:
-              'Cadenas de valor o cadenas globales de valoComercial, público y de servicios (terciario)',
+            titulo: 'Sector comercial, público y de servicios (terciario)',
             hash: 't_4_3',
           },
           {
@@ -269,7 +268,7 @@ export default {
     {
       termino: 'Matriz de requisitos legales',
       significado:
-        'compilación de los requisitos normativos exigibles a la empresa, acorde con las actividades propias e inherentes de su actividad productiva, los cuales dan los lineamientos normativos y técnicos para desarrollar el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), el cual deberá actualizarse en la medida que sean emitidas nuevas disposiciones aplicables” (Aliados en Tecnología y Calidad S.A.S, 2020).',
+        'compilación de los requisitos normativos exigibles a la empresa, acorde con las actividades propias e inherentes de su actividad productiva, los cuales dan los lineamientos normativos y técnicos para desarrollar el Sistema de Gestión de la Seguridad y Salud en el Trabajo (SG-SST), el cual deberá actualizarse en la medida que sean emitidas nuevas disposiciones aplicables (Aliados en Tecnología y Calidad S.A.S, 2020).',
     },
     {
       termino: 'MME',
@@ -355,7 +354,7 @@ export default {
       referencia:
         'Secretaría General de la Alcaldía Mayor de Bogotá. (2014). <em>Noveno Lineamiento. Matriz de cumplimiento legal (normograma) y procedimiento de evaluación periódica de lo legal.</em> ',
       link:
-        'https://secretariageneral.gov.co/sites/default/files/linemientos-distritales/l_09_1_normograma_sig.pdf',
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=62097&dt=S',
     },
     {
       referencia:

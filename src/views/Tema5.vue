@@ -9,29 +9,29 @@
    
     .row.mb-4
       .col-12(data-aos="fade-right")
-        p Conozca la información que se plasma en el siguiente video sobre este tema, donde se ahondará un poco sobre la matriz de requisitos legales y normativos:
+        p Conozca la información que se plasma en la siguiente presentación sobre este tema, donde se ahondará un poco sobre la matriz de requisitos legales y normativos:
       
     .tarjeta.tarjeta--azul.p-4.mb-3(data-aos="fade-right")
       SlyderA(tipo="b")
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-7.col-12.mb-4.mb-md-0
             p La identificación de los requisitos legales y/o normativos es una actividad de suma importancia para una empresa de cualquier índole, puesto que le permite reconocer los parámetros legales que aplican a las actividades que desarrolla en la producción de los bienes y servicios, enmarcados dentro de su Sistema Integrado de Gestión (SIG). 
           .col-md-5.col-12
             figure
               img(src='@/assets/curso/temas/tema5/tema5-32.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-7.col-12.mb-4.mb-md-0
             p La matriz de requisitos legales y normativos es una herramienta dinámica, cuyo valor no solamente radica en ser un compilado de información que está disponible para consulta, sino también en ser un instrumento que reduce el riesgo de incumplir los requisitos legales y normativos pertinentes para la organización. 
           .col-md-5.col-12
             figure
               img(src='@/assets/curso/temas/tema5/tema5-33.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-7.col-12.mb-4.mb-md-0
             p Matriz de requisitos legales: es un documento que reúne la información de normas, leyes, resoluciones, decretos y demás obligaciones aplicables a una empresa, cuyo objetivo es verificar y garantizar el cumplimiento de cada norma por parte de las áreas o departamentos que conforman la compañía. 
           .col-md-5.col-12
             figure
               img(src='@/assets/curso/temas/tema5/tema5-34.png', alt='')
-        .row.justify-content-center.align-items-center
+        .row.justify-content-center.align-items-center.mx-2
           .col-md-7.col-12.mb-4.mb-md-0
             p Para finalizar, en la matriz de requisitos se evidencia el cumplimiento de normas aplicables y acordes con la naturaleza de la organización empresarial, así como también relacionada con su actividad productiva. 
           .col-md-5.col-12
@@ -120,7 +120,7 @@
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-down")
       .row(titulo="a. Normatividad nacional:")
         .col-12.mb-4.mb-md-0
-          p Es el primer nivel con el que una empresa debe cumplir. Incluye las leyes, decretos, resoluciones, reglamentos, estatutos, entre otros, que son emitidos por el Congreso de la República, por los Ministerios o por Departamentos Administrativos. Son ejemplo de normatividad nacional el Código Sustantivo del Trabajo, el Decreto Único Reglamentario del Sector, entre otros.
+          p Es el primer nivel con el que una empresa debe cumplir. Incluye las leyes, decretos, resoluciones, reglamentos, estatutos, entre otros, que son emitidos por el Congreso de la República, por los Ministerios o por Departamentos Administrativos. Son ejemplos de normatividad nacional, el Código Sustantivo del Trabajo, el Decreto Único Reglamentario del Sector, entre otros.
       .row(titulo="b. Normatividad departamental:")
         .col-12.mb-4.mb-md-0
           p Es el segundo nivel y está relacionado con la ubicación geográfica de la empresa.
@@ -148,33 +148,33 @@
 
     .tarjeta.tarjeta--gris.p-4(data-aos="fade-down")
       PasosB.color-acento-contenido
-        .row.justify-content-center.align-items-center(titulo="Determinar")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Determinar")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/tema5-09.svg', alt='')
-          .col-md-8.col-lg-8.col-12
+          .col-md-10.col-lg-10.col-10
             p Determinar la normatividad legal aplicable y buscar en fuentes apropiadas.
 
 
-        .row.justify-content-center.align-items-center(titulo="Establecer")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Establecer")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/tema5-10.svg', alt='')
-          .col-md-8.col-lg-8.col-12
+          .col-md-10.col-lg-10.col-10
             p Establecer un formato claro y entendible, registrar actividades como evidencia de cumplimento.
 
-        .row.justify-content-center.align-items-center(titulo="Realizar")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Realizar")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/tema5-11.svg', alt='')
-          .col-md-8.col-lg-8.col-12
+          .col-md-10.col-lg-10.col-10
             p Realizar seguimiento al desarrollo de actividades.
               
-        .row.justify-content-center.align-items-center(titulo="Actualizar")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Actualizar")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema5/tema5-12.svg', alt='')
-          .col-md-8.col-lg-8.col-12
+          .col-md-10.col-lg-10.col-10
             p Actualizar la Matriz de Requisitos Legales y divulgar la información.
 
     p.mt-5.mb-5(data-aos="fade-left") Complemente la anterior información con la siguiente:

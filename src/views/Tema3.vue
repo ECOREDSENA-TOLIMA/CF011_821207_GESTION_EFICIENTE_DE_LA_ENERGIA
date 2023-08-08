@@ -174,7 +174,7 @@
         img(src="@/assets/curso/temas/tema3/tema3-20.png", alt="alt")
 
       .col-12(data-aos="fade-down")
-        p Al pertenecer a las Cadenas Globales de Valor (CGV), los países tienen la posibilidad de obtener una serie de oportunidades con un alto impacto positivo frente a su crecimiento económico, logrando una diversificación de exportaciones, la generación de etapas productivas eficientes, y la adquisición de nuevas capacidades tecnológicas. Para el caso de Colombia, es importante permanecer de una forma activa en una dinámica que promueva el desarrollo económico y el denominado Know-how, primordialmente en los sectores con un mayor valor agregado. 
+        p Al pertenecer a las Cadenas Globales de Valor (CGV), los países tienen la posibilidad de obtener una serie de oportunidades con un alto impacto positivo frente a su crecimiento económico, logrando una diversificación de exportaciones, la generación de etapas productivas eficientes, y la adquisición de nuevas capacidades tecnológicas. Para el caso de Colombia, es importante permanecer de una forma activa en una dinámica que promueva el desarrollo económico y el denominado #[i Know-how], primordialmente en los sectores con un mayor valor agregado. 
 
     .row.justify-content-center.align-items-center.mb-4.mt-4
       .col-md-4.col-12(data-aos="fade-left")
@@ -274,33 +274,33 @@
 
     .tarjeta.tarjeta--gris.p-4(data-aos="fade-left")
       PasosB.color-acento-contenido
-        .row.justify-content-center.align-items-center(titulo="Identificar")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Identificar")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema3/tema3-31.svg', alt='Texto que describa la imagen')
-          .col-md-8.col-lg-8.col-12
-            p identificar la sección que tiene el mayor porcentaje del valor agregado.
+          .col-md-10.col-lg-10.col-10
+            p Identificar la sección que tiene el mayor porcentaje del valor agregado.
 
-        .row.justify-content-center.align-items-center(titulo="Reconocer")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Reconocer")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema3/tema3-32.svg', alt='Texto que describa la imagen')
-          .col-md-8.col-lg-8.col-12
-            p reconocer la división que tiene el mayor porcentaje de valor agregado.
+          .col-md-10.col-lg-10.col-10
+            p Reconocer la división que tiene el mayor porcentaje de valor agregado.
 
-        .row.justify-content-center.align-items-center(titulo="Determinar")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Determinar")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema3/tema3-33.svg', alt='Texto que describa la imagen')
-          .col-md-8.col-lg-8.col-12
-            p determinar el grupo que tiene el porcentaje más alto de valor agregado.
+          .col-md-10.col-lg-10.col-10
+            p Determinar el grupo que tiene el porcentaje más alto de valor agregado.
 
-        .row.justify-content-center.align-items-center(titulo="Describir")
-          .col-md-2.col-lg-1.col-12.mb-4.mb-md-0
+        .row.align-items-center(titulo="Describir")
+          .col-md-2.col-lg-1.col-10.mb-4.mb-md-0
             figure
               img(src='@/assets/curso/temas/tema3/tema3-34.svg', alt='Texto que describa la imagen')
-          .col-md-8.col-lg-8.col-12
-            p describir la clase que tiene el mayor porcentaje de valor agregado.
+          .col-md-10.col-lg-10.col-10
+            p Describir la clase que tiene el mayor porcentaje de valor agregado.
 
 
     .row.justify-content-center.align-items-center.mb-4.mt-4

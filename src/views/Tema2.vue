@@ -153,7 +153,7 @@
       .col-12(data-aos="fade-right")
         p.mt-5 Otro subtema que se abordará en esta sección son los diagramas de flujo o de proceso. 
       .col-12(data-aos="fade-right")
-        p.mb-0 #[strong El diagrama de flujo o de proceso] es una herramienta visual que muestra una secuencia detallada de cada una de las actividades que se realizan en el marco de un proceso específico, así como las inspecciones y los tiempos de trabajo que van desde la llegada de los insumos o materiales hasta el embalaje del producto terminado. Su importancia radica en que ofrece detalles de todo el proceso de manufactura. 
+        p #[strong El diagrama de flujo o de proceso] es una herramienta visual que muestra una secuencia detallada de cada una de las actividades que se realizan en el marco de un proceso específico, así como las inspecciones y los tiempos de trabajo que van desde la llegada de los insumos o materiales hasta el embalaje del producto terminado. Su importancia radica en que ofrece detalles de todo el proceso de manufactura. 
         p A través de este diagrama, es posible ver en qué consiste el proceso y cómo se relacionan entre sí las diferentes actividades que lo componen; es de especial utilidad para analizar y mejorar el proceso en general. 
         p En la figura que se muestra más adelante, se expone el ejemplo de un diagrama de flujo para el proceso de diseño de un producto concreto, en ella también se exponen los símbolos más usados para su elaboración con su respectivo significado: el rombo representa los puntos de decisión o verificación, mientras que el rectángulo representa una tarea u operación, y por último, el círculo representa los puntos de inicio y fin del proceso, así como los insumos y resultados. 
     

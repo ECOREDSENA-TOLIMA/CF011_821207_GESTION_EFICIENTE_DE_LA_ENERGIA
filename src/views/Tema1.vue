@@ -5,7 +5,8 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 1
-      h1 Teoría de la organización y estructuras organizacionales
+      h1.d-none.d-sm-none.d-md-block Teoría de la organización y estructuras organizacionales
+      h2.d-block.d-md-none Teoría de la organización y estructuras organizacionales
 
       
     .row.justify-content-center.align-items-center.mb-4
@@ -108,7 +109,7 @@
       .col-12
         p(data-aos="fade-right") No deje de revisar el #[strong ¿Sabías qué?,] para descubrir algo nuevo sobre la Organización.
       .col-md-10.col-12.mt-4(data-aos="fade-down")
-        img(src='@/assets/curso/temas/tema1/tema1-06.svg' alt='AvatarTop')
+        img(src='@/assets/curso/temas/tema1/tema1-06.svg' alt='Una organización puede realizar más de una actividad económica a lo largo de su cadena de valor; como, por ejemplo, Ecopetrol S.A., que no sólo explora hidrocarburos (actividad industrial) sino que, además, comercializa productos petroquímicos, en forma limpia, segura y sostenible (actividad comercial). ')
 
 
     Separador
@@ -175,7 +176,7 @@
         p La estructura organizacional es un modelo jerárquico que adoptan las organizaciones para facilitar su operación y funcionamiento; dicha estructura, cuya representación visual se denomina organigrama, permite que las organizaciones establezcan roles y responsabilidades para cada uno de sus empleados o colaboradores. La siguiente figura, por ejemplo, presenta el organigrama de Ecopetrol S.A. y proyecta las diferentes líneas de mando y autoridad dentro de la compañía, así como los cargos directivos vigentes en la misma.
      
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.py-4
-      .col-12(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido
           p.titulo.pb-0.mb-0 <b>Figura 1.</b> <i>Estructura organizacional Ecopetrol S.A</i> 
         figure
@@ -192,9 +193,9 @@
 
       .row(titulo="b. Funcional:")
         .col-12.mb-4.mb-md-0
-          p A diferencia de la estructura en línea, este tipo de estructura se caracteriza porque cuenta con distintos gerentes especializados en áreas específicas de conocimiento (marketing, contabilidad y costos, producción y operaciones, talento humano, investigación y desarrollo, entre otras); a su vez, cada uno de estos gerentes tiene a su cargo a uno o más empleados a los que asigna un conjunto de tareas y responsabilidades; finalmente, los gerentes de las áreas funcionales reportan a un gerente general, quien es el encargado de coordinar toda la operación.
+          p A diferencia de la estructura en línea, este tipo de estructura se caracteriza porque cuenta con distintos gerentes especializados en áreas específicas de conocimiento (#[i marketing], contabilidad y costos, producción y operaciones, talento humano, investigación y desarrollo, entre otras); a su vez, cada uno de estos gerentes tiene a su cargo a uno o más empleados a los que asigna un conjunto de tareas y responsabilidades; finalmente, los gerentes de las áreas funcionales reportan a un gerente general, quien es el encargado de coordinar toda la operación.
 
-      .row(titulo="c. Staff:")
+      .row(titulo="c. <i>Staff</i>:")
         .col-12.mb-4.mb-md-0
           p Está orientada hacia el interior de la organización, dado que su finalidad es asesorar a cada una de las áreas funcionales y prestarles servicios muy específicos.
 
@@ -310,7 +311,7 @@
               img(src='@/assets/curso/temas/tema1/tema1-19.png', alt='')
         .row.justify-content-center.align-items-center
           .col-md-5.col-12.mb-4.mb-md-0
-            p Es importante mencionar que una organización no es totalmente centralizada o descentralizada, puesto que en la práctica los gerentes eligen el grado de centralización o descentralización de su organización en función de los objetivos (operativos, tácticos y estratégicos) previstos en sus planes de acción, de modo que lo que funcione en una no necesariamente funcione en otra en la misma medida, aún cuando la actividad económica que ambas realicen sea parecida o, incluso, la misma.
+            p Es importante mencionar que una organización no es totalmente centralizada o descentralizada, puesto que en la práctica los gerentes eligen el grado de centralización o descentralización de su organización en función de los objetivos (operativos, tácticos y estratégicos) previstos en sus planes de acción, de modo que lo que funcione en una no necesariamente funcione en otra en la misma medida, aun cuando la actividad económica que ambas realicen sea parecida o, incluso, la misma.
           .col-md-7.col-12
             figure
               img(src='@/assets/curso/temas/tema1/tema1-20.png', alt='')
