@@ -347,27 +347,48 @@
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 21.</b> <i>Matriz de requisitos legales IBAL</i> 
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema5/tema5-29.png')
+        //- figure(data-aos="fade-left")
+        //-   img(src='@/assets/curso/temas/tema5/tema5-29.png')
+        //-   figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
+        .position-relative(@mouseover="indicadorImagenZoom = false")
+          Zoom(
+            lente="150" 
+            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')" 
+            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')"
+          )
+          .indicador--hover(v-if="indicadorImagenZoom")
           figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
-
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 22.</b> <i>Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander</i> 
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema5/tema5-30.png')
+        //- figure(data-aos="fade-left")
+        //-   img(src='@/assets/curso/temas/tema5/tema5-30.png')
+        //-   figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
+        .position-relative(@mouseover="indicadorImagenZoom = false")
+          Zoom(
+            lente="150" 
+            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')" 
+            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')"
+          )
+          .indicador--hover(v-if="indicadorImagenZoom")
           figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
-
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.mt-5
       .col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.titulo.pb-0.mb-0 <b>Figura 23.</b> <i>Matriz de requisitos legales INVAMER</i> 
-        figure(data-aos="fade-left")
-          img(src='@/assets/curso/temas/tema5/tema5-31.png')
+        //- figure(data-aos="fade-left")
+        //-   img(src='@/assets/curso/temas/tema5/tema5-31.png')
+        //-   figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
+        .position-relative(@mouseover="indicadorImagenZoom = false")
+          Zoom(
+            lente="150" 
+            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')" 
+            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')"
+          )
+          .indicador--hover(v-if="indicadorImagenZoom")
           figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
-
 
 </template>
 
@@ -376,6 +397,7 @@ export default {
   name: 'Tema5',
   data: () => ({
     // variables de vue
+    indicadorImagenZoom: true,
     linkA:
       'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
   }),
