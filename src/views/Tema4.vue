@@ -71,27 +71,27 @@
               tr
                 td.td-uno-table.text-center Transporte
                 td.td-dos-table.px-3.text-center 424.408
-                td.td-dos-table.px-3.text-center 5.49%
+                td.td-dos-table.px-3.text-center 5.49 %
               tr
                 td.td-uno-table.text-center Industria
                 td.td-dos-table.px-3.text-center 131.859
-                td.td-dos-table.px-3.text-center 1.71%
+                td.td-dos-table.px-3.text-center 1.71 %
               tr
                 td.td-uno-table.text-center Terciario
                 td.td-dos-table.px-3.text-center 87.289
-                td.td-dos-table.px-3.text-center 1.13%
+                td.td-dos-table.px-3.text-center 1.13 %
               tr
                 td.td-uno-table.text-center Residencial
                 td.td-dos-table.px-3.text-center 56.121
-                td.td-dos-table.px-3.text-center 0.73%
+                td.td-dos-table.px-3.text-center 0.73 %
               tr
                 th.td-uno-table.text-center Total
                 th.td-dos-table.px-3.text-center 699.678
-                th.td-dos-table.px-3.text-center 9.05%
+                th.td-dos-table.px-3.text-center 9.05 %
 
       .col-12.px-0(data-aos="fade-left")
         p El propósito de este componente es presentar de una manera general los objetivos y metas sectoriales del PROURE, de acuerdo con lo establecido en el Plan de Acción Indicativo (PAI). Como primer paso, observe el contexto actual del sistema energético nacional y sus principales necesidades:
-        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética#[sup 2], la energía útil estuvo representada por un 48%, mientras que las pérdidas fueron equivalentes al 52%. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
+        p En la siguiente figura, se muestra el Balance Energético Colombiano (BECO) del año 2015. Se observa que en la matriz energética#[sup 2], la energía útil estuvo representada por un 48 %, mientras que las pérdidas fueron equivalentes al 52 %. Esta proporción indica que es necesario realizar un cambio en términos de eficiencia energética en Colombia.
       
       .col-12-12.px-0.py-4.cajon-b.color-primario
           p #[sup 2]La matriz energética es una representación cuantitativa de todas las fuentes de energía que se utilizan en una zona geográfica, que puede ser un país, un continente o el mundo. Muestra los consumos de cada tipo de energía: combustibles fósiles (petróleo, gas, carbón), hidráulica, solar, eólica, biomasa, geotérmica, etc., que apliquen.
@@ -113,7 +113,7 @@
           img(src='@/assets/curso/temas/tema4/tema4-29.svg')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.col-md-6(data-aos="fade-right")
-        p En esta figura, se observan los cuatro principales sectores consumidores del país: el sector transporte (41%), el industrial (29,4%), residencial (16,7%) y comercial y público o también llamado terciario (5,32%). 
+        p En esta figura, se observan los cuatro principales sectores consumidores del país: el sector transporte (41 %), el industrial (29,4 %), residencial (16,7 %) y comercial y público o también llamado terciario (5,32 %). 
         p En adelante, el interés de este documento se centra en estos cuatro grandes consumidores; se presentan las características del consumo de energía final por sector.
 
     Separador
@@ -145,8 +145,8 @@
       .col-md-4.col-12(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema4/tema4-04.png", alt="alt")
       .col-md-8.col-12.pr-4(data-aos="fade-right")
-        p A partir del balance realizado en 2015, se encontró un consumo final del sector transporte cercano a los 496.000 TJ, con los combustibles fósiles como principales energéticos. La gasolina a motor y el ACPM son los combustibles más usados en el transporte nacional, responsables de un 40% y 37% del consumo, respectivamente. 
-        p La gasolina se consume principalmente en carros particulares, con un porcentaje aproximado del 83%. Mientras que el ACPM, con el 88% de participación, es mayormente usado en transporte de carga y transporte público para la comunidad en general. Por otro lado, la participación de la electricidad es del 1% del consumo, aproximadamente. Cabe mencionar que se utilizan también biocombustibles, como el alcohol carburante y el biodiesel, cuyo consumo de energía del sector transporte figura en el 2% y 5%, respectivamente.
+        p A partir del balance realizado en 2015, se encontró un consumo final del sector transporte cercano a los 496.000 TJ, con los combustibles fósiles como principales energéticos. La gasolina a motor y el ACPM son los combustibles más usados en el transporte nacional, responsables de un 40 % y 37 % del consumo, respectivamente. 
+        p La gasolina se consume principalmente en carros particulares, con un porcentaje aproximado del 83 %. Mientras que el ACPM, con el 88 % de participación, es mayormente usado en transporte de carga y transporte público para la comunidad en general. Por otro lado, la participación de la electricidad es del 1 % del consumo, aproximadamente. Cabe mencionar que se utilizan también biocombustibles, como el alcohol carburante y el biodiesel, cuyo consumo de energía del sector transporte figura en el 2 % y 5 %, respectivamente.
       .col-12(data-aos="fade-right")
         p.mt-3 La participación de los energéticos anteriormente mencionados se muestra en las siguientes figuras: 
 
@@ -164,7 +164,7 @@
           figcaption.mt-md-4 Nota. Tomada de UPME (2016).
     .row 
       .col-12
-        p El sector transporte comprende los subsectores aéreo, marítimo, ferroviario y carretero. El subsector de transporte por carretera es el que mayor participación tiene en el consumo energético del sector, con un 88%. 
+        p El sector transporte comprende los subsectores aéreo, marítimo, ferroviario y carretero. El subsector de transporte por carretera es el que mayor participación tiene en el consumo energético del sector, con un 88 %. 
 
     .row.justify-content-center.align-items-center.mt-4.mb-4(data-aos="fade-left")
       div.d-flex.align-items-center.mb-4.mt-0.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
@@ -175,7 +175,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-md-7.col-12.pr-4(data-aos="fade-right")
-        p Teniendo en cuenta el contexto antes mostrado, se formularon una serie de metas de eficiencia energética, que fueron trazadas a partir de los lineamientos de la nueva política en eficiencia energética formulada por el Ministerio de Minas y Energía, que se basa en la caracterización del sector hecho por la UPME en años anteriores. En la Tabla 1, se mostró el resumen de las metas sectoriales para el periodo 2017-2022, asociadas al consumo total de energía nacional. La meta de ahorro en el sector transporte es de 424.408 TJ (5.5%).
+        p Teniendo en cuenta el contexto antes mostrado, se formularon una serie de metas de eficiencia energética, que fueron trazadas a partir de los lineamientos de la nueva política en eficiencia energética formulada por el Ministerio de Minas y Energía, que se basa en la caracterización del sector hecho por la UPME en años anteriores. En la Tabla 1, se mostró el resumen de las metas sectoriales para el periodo 2017-2022, asociadas al consumo total de energía nacional. La meta de ahorro en el sector transporte es de 424.408 TJ (5.5 %).
         p Para mejorar la eficiencia en el consumo de energía en el sector transporte, se necesita de una serie de acciones encaminadas primordialmente a reducir el consumo de combustibles fósiles, particularmente los líquidos, y a potenciar el uso de energéticos menos contaminantes, como el gas natural vehicular (GNV) o la electricidad.
       .col-md-5.col-12(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema4/tema4-07.png", alt="alt")
@@ -293,7 +293,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Dentro de los resultados del BECO 2015, el consumo del sector industrial se aproxima al 30% de la energía final nacional. Es el segundo sector que más consume (luego del sector transporte). Se destacan dentro de este consumo, la utilización de energía para fines térmicos, que resulta en un 83% del consumo total de la industria, por cuenta del uso de energéticos como el carbón mineral, gas natural y biomasa sólida. Por otra parte, el uso de energía eléctrica representa el 17% restante del consumo. Este puede ser por consumo directo de la red eléctrica o por autogeneración. 
+        p.mb-0 Dentro de los resultados del BECO 2015, el consumo del sector industrial se aproxima al 30 % de la energía final nacional. Es el segundo sector que más consume (luego del sector transporte). Se destacan dentro de este consumo, la utilización de energía para fines térmicos, que resulta en un 83 % del consumo total de la industria, por cuenta del uso de energéticos como el carbón mineral, gas natural y biomasa sólida. Por otra parte, el uso de energía eléctrica representa el 17 % restante del consumo. Este puede ser por consumo directo de la red eléctrica o por autogeneración. 
 
     p(data-aos="fade-left") El comportamiento del consumo del sector industrial se observa en la siguiente figura: 
 
@@ -305,7 +305,7 @@
           img(src='@/assets/curso/temas/tema4/tema4-09.png')
           figcaption Nota. Tomada de UPME (2016).
       .col-12.mt-4
-        p(data-aos="fade-left") Ahora bien, la caracterización de los usos de los principales energéticos consumidos por la industria se mostró en la anterior figura. En el caso de la energía eléctrica, esta utiliza el 17% de la energía final consumida por la industria. El principal responsable de este consumo, con alrededor del 76%, es el uso de energía eléctrica como fuerza motriz. Esto incluye procesos para bombear fluidos, comprimir aire, entre otros usos, que implican motorización eléctrica. Por otro lado, la caracterización también permitió observar un extenso uso de energía eléctrica en la generación de calor, especialmente en la industria de metales, plásticos y productos químicos. 
+        p(data-aos="fade-left") Ahora bien, la caracterización de los usos de los principales energéticos consumidos por la industria se mostró en la anterior figura. En el caso de la energía eléctrica, esta utiliza el 17 % de la energía final consumida por la industria. El principal responsable de este consumo, con alrededor del 76 %, es el uso de energía eléctrica como fuerza motriz. Esto incluye procesos para bombear fluidos, comprimir aire, entre otros usos, que implican motorización eléctrica. Por otro lado, la caracterización también permitió observar un extenso uso de energía eléctrica en la generación de calor, especialmente en la industria de metales, plásticos y productos químicos. 
         p.mt-4(data-aos="fade-left") La participación de los usos de la electricidad se observa en las figuras a continuación:  
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.py-2
@@ -332,7 +332,7 @@
             .row.justify-content-center.align-items-center
               .col-12.mb-4.mb-md-0
                 h4 Consumo combustibles
-                p Los combustibles sólidos, como carbón mineral, bagazo y coque, representan más del 45% de la energía total consumida, siendo utilizados principalmente para suministro de calor directo (39%) e indirecto (61%). Este último está asociado con procesos en calderas y cogeneración.
+                p Los combustibles sólidos, como carbón mineral, bagazo y coque, representan más del 45 % de la energía total consumida, siendo utilizados principalmente para suministro de calor directo (39 %) e indirecto (61 %). Este último está asociado con procesos en calderas y cogeneración.
               .col-12.col-md-10
                 figure
                   img(src='@/assets/curso/temas/tema4/tema4-12.svg', alt='')
@@ -413,7 +413,7 @@
     Separador
     #t_4_3.titulo-segundo.color-acento-botones.mt-4(data-aos="fade-right")
       h2 4.3 Sector comercial, público y de servicios (terciario)
-    p(data-aos="fade-right") De acuerdo con el BECO realizado en 2014, el consumo del sector terciario es aproximadamente el 7% de la energía final de Colombia. Esto indica que no es un sector energético-intensivo; sin embargo, pese a esto, tiene potenciales oportunidades para uso eficiente de la energía. Hacen parte de este sector las entidades oficiales (públicas), establecimientos hoteleros y educativos, entre otros; y los códigos CIIU de los subsectores correspondientes son los códigos CIIU Revisión 3, comprendidos entre el 50 y el 93, observados en la siguiente tabla: 
+    p(data-aos="fade-right") De acuerdo con el BECO realizado en 2014, el consumo del sector terciario es aproximadamente el 7 % de la energía final de Colombia. Esto indica que no es un sector energético-intensivo; sin embargo, pese a esto, tiene potenciales oportunidades para uso eficiente de la energía. Hacen parte de este sector las entidades oficiales (públicas), establecimientos hoteleros y educativos, entre otros; y los códigos CIIU de los subsectores correspondientes son los códigos CIIU Revisión 3, comprendidos entre el 50 y el 93, observados en la siguiente tabla: 
 
     .row.justify-content-center.align-items-center.mb-3
       .col-12.col-lg-8.col-md-10.titulo-sexto.color-acento-contenido.mt-2(data-aos="fade-right")
@@ -429,7 +429,7 @@
             tbody
               tr
                 td.td-uno-table 50
-                td.td-dos-table.px-3 Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios: comercio al por menor de combustibles y lubricantes para vehiculos automotores.
+                td.td-dos-table.px-3 Comercio, mantenimiento y reparación de vehículos automotores y motocicletas, sus partes, piezas y accesorios: comercio al por menor de combustibles y lubricantes para vehículos automotores.
               tr
                 td.td-uno-table 51
                 td.td-dos-table.px-3 Comercio al por mayor y en comisión o por contrato, excepto el comercio de vehículos automotores y motocicletas; mantenimiento y reparación de maquinaria y equipo.
@@ -515,7 +515,7 @@
         div.py-2.px-3.pe-5
           h4.mb-0 Meta sectorial y acciones y medidas para cumplimiento en 2022
 
-    p(data-aos="fade-left") La meta de ahorro que se estableció para el sector comercial, público y de servicios es de 87.289 TJ (1.13%). A partir de los resultados de la caracterización del consumo de energía en el sector terciario, se identificaron posibles medidas de eficiencia energética para el cumplimiento de esta meta. 
+    p(data-aos="fade-left") La meta de ahorro que se estableció para el sector comercial, público y de servicios es de 87.289 TJ (1.13 %). A partir de los resultados de la caracterización del consumo de energía en el sector terciario, se identificaron posibles medidas de eficiencia energética para el cumplimiento de esta meta. 
     p(data-aos="fade-left") Las acciones destacadas comprenden:
 
     .row.justify-content-center.align-items-center.mb-4
@@ -540,7 +540,7 @@
     Separador
     #t_4_4.titulo-segundo.color-acento-botones.mt-0(data-aos="fade-right")
       h2 4.4 Residencial
-    p(data-aos="fade-right") El sector residencial se caracteriza porque los principales usos de energía son en cocción, televisión, refrigeración e iluminación. Los energéticos que más se consumen en zonas urbanas son la electricidad (55%) y el gas natural (35%). En cambio, en áreas rurales, el principal energético es la leña (77%), seguido del GLP (14%). 
+    p(data-aos="fade-right") El sector residencial se caracteriza porque los principales usos de energía son en cocción, televisión, refrigeración e iluminación. Los energéticos que más se consumen en zonas urbanas son la electricidad (55 %) y el gas natural (35 %). En cambio, en áreas rurales, el principal energético es la leña (77 %), seguido del GLP (14 %). 
 
     .row.justify-content-center.align-items-center.mt-4.mb-4(data-aos="fade-left")
       div.d-flex.align-items-center.mb-4.mt-0.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
@@ -554,7 +554,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/tema4-20.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En este sector, se presentan importantes consumos de electricidad y gas natural, a nivel urbano, y de leña, a nivel rural. La distribución de los consumos de energía en el sector residencial urbano se muestra en las siguientes figuras. Se destaca la participación de la cocción con un 46%, mayormente con gas natural en zonas urbanas. Con respecto al uso de energía eléctrica, principalmente se utiliza en refrigeración (39%). En segundo lugar, se encuentra el consumo en la televisión (20%) y, finalmente, la iluminación (10%). 
+        p.mb-0 En este sector, se presentan importantes consumos de electricidad y gas natural, a nivel urbano, y de leña, a nivel rural. La distribución de los consumos de energía en el sector residencial urbano se muestra en las siguientes figuras. Se destaca la participación de la cocción con un 46 %, mayormente con gas natural en zonas urbanas. Con respecto al uso de energía eléctrica, principalmente se utiliza en refrigeración (39 %). En segundo lugar, se encuentra el consumo en la televisión (20 %) y, finalmente, la iluminación (10 %). 
 
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.py-4
@@ -571,7 +571,7 @@
           img(src='@/assets/curso/temas/tema4/tema4-22.png')
           figcaption Nota. Tomada de UPME (2016).
 
-    p(data-aos="fade-right") Por otro lado, el consumo residencial en zonas rurales se caracteriza por el uso masivo de leña en estufas tradicionales y fogones abiertos. La eficiencia de estas estufas no supera el 10%, lo que representa un desafío en eficiencia energética. 
+    p(data-aos="fade-right") Por otro lado, el consumo residencial en zonas rurales se caracteriza por el uso masivo de leña en estufas tradicionales y fogones abiertos. La eficiencia de estas estufas no supera el 10 %, lo que representa un desafío en eficiencia energética. 
 
     .row.justify-content-center.align-items-center.mt-2.mb-4(data-aos="fade-left")
       div.d-flex.align-items-center.mb-2.mt-0.position-relative(style="z-index:1000 !important" data-aos="fade-right")    
@@ -579,7 +579,7 @@
           img.mb-0.position-relative(src="@/assets/curso/temas/tema4/icon.svg")
         div.py-2.px-3.pe-5
           h4.mb-0 Meta sectorial y acciones y medidas para cumplimiento en 2022
-    p(data-aos="fade-right") La meta de ahorro que se estableció para el sector comercial, público y de servicios es de 56.121 TJ (0.73%). A partir de los resultados de la caracterización del consumo de energía en el sector residencial, se identificaron posibles medidas de eficiencia energética para el cumplimiento de esta meta. 
+    p(data-aos="fade-right") La meta de ahorro que se estableció para el sector comercial, público y de servicios es de 56.121 TJ (0.73 %). A partir de los resultados de la caracterización del consumo de energía en el sector residencial, se identificaron posibles medidas de eficiencia energética para el cumplimiento de esta meta. 
     p(data-aos="fade-right") Las acciones destacadas comprenden: 
 
     .row.justify-content-center.align-items-center.mb-5

@@ -18,7 +18,7 @@
             img(src='@/assets/curso/temas/tema3/tema3-01.svg' alt='AvatarTop')
           .tarjeta.tarjeta--azul.d-flex.align-items-center
             .p-4
-              p La producción económica del país está sujeta por la demanda interna y el gasto en consumo dentro de los hogares, siendo el mayor componente del PIB (Producto Interno Bruto: es el valor total de la producción de todos los bienes y servicios finales que se desarrollan dentro del territorio nacional durante un periodo de tiempo determinado; por ejemplo, para el año 2018, fue de 2,6%). 
+              p La producción económica del país está sujeta por la demanda interna y el gasto en consumo dentro de los hogares, siendo el mayor componente del PIB (Producto Interno Bruto: es el valor total de la producción de todos los bienes y servicios finales que se desarrollan dentro del territorio nacional durante un periodo de tiempo determinado; por ejemplo, para el año 2018, fue de 2,6 %). 
 
       .col-lg-6.align-self-stretch(data-aos="fade-left")
         .tarjeta-avatar-b.mb-5(style="height:87%")
@@ -117,7 +117,7 @@
           .col-md-6.col-12.mb-4.mb-md-0
             .row.justify-content-center.align-items-center
               .col-12
-                p En este sector, se encuentra la mayor parte de la fuerza laboral del país. Se percibe una representación en el PIB del 52,5%. 
+                p En este sector, se encuentra la mayor parte de la fuerza laboral del país. Se percibe una representación en el PIB del 52,5 %. 
               .col-12.col-md-10
                 figure
                   img(src='@/assets/curso/temas/tema3/tema3-14.svg', alt='')
@@ -151,7 +151,7 @@
       .col-md-8.col-12.pr-4(data-aos="fade-right")
         p Ahora bien, es importante mencionar cuáles son las actividades y sectores que predominan en Colombia, a partir de los sectores económicos antes referidos. Entre las 10 actividades más destacadas, están: petróleo, agricultura y ganadería, azúcar, chocolate, café, minería, turismo, industria automotriz, electrodomésticos y arte y música.
         p Por medio de la siguiente gráfica, se busca realizar una descripción de lo que ha sido el comportamiento de la economía colombiana, estudiando las ramas de actividad económica presentes en el país, en el transcurso de los años 2001 – 2016, explicando los resultados arrojados en función del crecimiento del producto interno bruto (PIB).
-        p Se logra observar cómo, en el lapso de estos años, la actividad de comercio, hoteles y restaurantes, y la actividad de los establecimientos financieros se han convertido en las que han logrado impulsar el desarrollo de la economía; sin embargo, para el año 2010, la rama de la industria manufacturera demostró un crecimiento considerable en comparación con los años anteriores, dando un paso del 3,73% en el año 2009 al 19,1% en el año 2010; por otra parte, el equipo de transporte y los productos de cuero y calzado reportan un aumento del 22,2% y 17,06%, respectivamente.
+        p Se logra observar cómo, en el lapso de estos años, la actividad de comercio, hoteles y restaurantes, y la actividad de los establecimientos financieros se han convertido en las que han logrado impulsar el desarrollo de la economía; sin embargo, para el año 2010, la rama de la industria manufacturera demostró un crecimiento considerable en comparación con los años anteriores, dando un paso del 3,73 % en el año 2009 al 19,1 % en el año 2010; por otra parte, el equipo de transporte y los productos de cuero y calzado reportan un aumento del 22,2 % y 17,06 %, respectivamente.
 
 
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.py-4
