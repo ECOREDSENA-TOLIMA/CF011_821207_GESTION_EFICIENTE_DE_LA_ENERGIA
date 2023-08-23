@@ -340,55 +340,106 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Así pues, la matriz de requisitos legales determina un paso importante dentro de la implementación de un sistema de gestión en una empresa, puesto que es ejecutada en pro de las necesidades correspondientes de cada organización. Asimismo, al adaptar un requisito legal, como la evaluación y seguimiento, se sugiere responsabilidad y que sea llevado a cabo de forma correcta, teniendo en cuenta el procedimiento propio de cada compañía. Además, la matriz es una herramienta que sirve para orientar a los integrantes de una empresa en la identificación y aplicación de las normas que, según su competencia, deben cumplir. Al ser la matriz una recopilación de información, esta se convierte en un repositorio de consulta y estudio, y la accesibilidad a dicho compendio se espera que sea rápida y entendible.
 
-    p.mt-5.mb-2 Finalmente, como se ha mencionado, la matriz de requisitos legales varía conforme sea el tipo de empresa; es decir, depende de la actividad económica en la que se enfoque. 
-    p.mb-5 Los siguientes ejemplos son matrices legales de empresas de diferente índole y razón social.
+    p.mt-5.mb-2 Finalmente, como se ha mencionado, la matriz de requisitos legales varía conforme sea el tipo de empresa; es decir, depende de la actividad económica en la que se enfoque. Los siguientes ejemplos son matrices legales de empresas de diferente índole y razón social, en el siguiente documento anexo, podrá revisar un ejemplo de ésta matriz:
+   
+    .row.justify-content-center.align-items-center.mt-4.mb-5(data-aos="fade-right")
+      .col-lg-10.col-12
+        .row.justify-content-center.align-items-center.cajon-tema5.py-2
+          .col-2
+            figure
+              img(src='@/assets/curso/temas/website.svg', style="padding:1.2rem")
+          .col-10
+            .row
+              .col-12.row.justify-content-center.align-items-center
+                .col-md-9.col-12
+                  h4 Matriz de requisitos legales IBAL
+                .col-md-3.col-12.text-right
+                  a.boton.color-acento-botones(:href="link5A" target="_blank") 
+                    span Ir al sitio web
+                    i.fas.fa-link
 
-    .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.pb-4
-      .col-12
-        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 21.</b> <i>Matriz de requisitos legales IBAL</i> 
-        //- figure(data-aos="fade-left")
-        //-   img(src='@/assets/curso/temas/tema5/tema5-29.png')
-        //-   figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
-        .position-relative(@mouseover="indicadorImagenZoom = false")
-          Zoom(
-            lente="150" 
-            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')" 
-            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')"
-          )
-          .indicador--hover(v-if="indicadorImagenZoom")
-          figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
+    .row.justify-content-center.align-items-center.mt-4.mb-5(data-aos="fade-right")
+      .col-lg-10.col-12
+        .row.justify-content-center.align-items-center.cajon-tema5.py-2
+          .col-2
+            figure
+              img(src='@/assets/curso/temas/website.svg', style="padding:1.2rem")
+          .col-10
+            .row
+              .col-12.row.justify-content-center.align-items-center
+                .col-md-9.col-12
+                  h4 Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander
+                .col-md-3.col-12.text-right
+                  a.boton.color-acento-botones(:href="link5B" target="_blank") 
+                    span Ir al sitio web
+                    i.fas.fa-link
+    .row.justify-content-center.align-items-center.mt-4.mb-5(data-aos="fade-right")
+      .col-lg-10.col-12
+        .row.justify-content-center.align-items-center.cajon-tema5.py-2
+          .col-2
+            figure
+              img(src='@/assets/curso/temas/website.svg', style="padding:1.2rem")
+          .col-10
+            .row
+              .col-12.row.justify-content-center.align-items-center
+                .col-md-9.col-12
+                  h4 Matriz de requisitos legales INVAMER
+                .col-md-3.col-12.text-right
+                  a.boton.color-acento-botones(:href="link5C" target="_blank") 
+                    span Ir al sitio web
+                    i.fas.fa-link
 
-    .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4
-      .col-12
-        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 22.</b> <i>Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander</i> 
-        //- figure(data-aos="fade-left")
-        //-   img(src='@/assets/curso/temas/tema5/tema5-30.png')
-        //-   figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
-        .position-relative(@mouseover="indicadorImagenZoom = false")
-          Zoom(
-            lente="150" 
-            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')" 
-            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')"
-          )
-          .indicador--hover(v-if="indicadorImagenZoom")
-          figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
-    .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.mt-5
-      .col-12
-        .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.titulo.pb-0.mb-0 <b>Figura 23.</b> <i>Matriz de requisitos legales INVAMER</i> 
-        //- figure(data-aos="fade-left")
-        //-   img(src='@/assets/curso/temas/tema5/tema5-31.png')
-        //-   figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
-        .position-relative(@mouseover="indicadorImagenZoom = false")
-          Zoom(
-            lente="150" 
-            :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')" 
-            :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')"
-          )
-          .indicador--hover(v-if="indicadorImagenZoom")
-          figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
+   
+   
+    //- Finalmente, como se ha mencionado, la matriz de requisitos legales varía conforme sea el tipo de empresa; es decir, depende de la actividad económica en la que se enfoque. 
+    //- p.mb-5 Los siguientes ejemplos son matrices legales de empresas de diferente índole y razón social.
+
+    //- .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.pb-4
+    //-   .col-12
+    //-     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+    //-       p.titulo.pb-0.mb-0 <b>Figura 21.</b> <i>Matriz de requisitos legales IBAL</i> 
+    //-     //- figure(data-aos="fade-left")
+    //-     //-   img(src='@/assets/curso/temas/tema5/tema5-29.png')
+    //-     //-   figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
+    //-     .position-relative(@mouseover="indicadorImagenZoom = false")
+    //-       Zoom(
+    //-         lente="150" 
+    //-         :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')" 
+    //-         :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-29.png')"
+    //-       )
+    //-       .indicador--hover(v-if="indicadorImagenZoom")
+    //-       figcaption Nota. Tomada de https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf
+
+    //- .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4
+    //-   .col-12
+    //-     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+    //-       p.titulo.pb-0.mb-0 <b>Figura 22.</b> <i>Ejemplo de matriz de requisitos legales (normograma) de la Contraloría General del Departamento de Norte de Santander</i> 
+    //-     //- figure(data-aos="fade-left")
+    //-     //-   img(src='@/assets/curso/temas/tema5/tema5-30.png')
+    //-     //-   figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
+    //-     .position-relative(@mouseover="indicadorImagenZoom = false")
+    //-       Zoom(
+    //-         lente="150" 
+    //-         :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')" 
+    //-         :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-30.png')"
+    //-       )
+    //-       .indicador--hover(v-if="indicadorImagenZoom")
+    //-       figcaption Nota. Tomada de https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de 
+    //- .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.px-4.mt-5
+    //-   .col-12
+    //-     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+    //-       p.titulo.pb-0.mb-0 <b>Figura 23.</b> <i>Matriz de requisitos legales INVAMER</i> 
+    //-     //- figure(data-aos="fade-left")
+    //-     //-   img(src='@/assets/curso/temas/tema5/tema5-31.png')
+    //-     //-   figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
+    //-     .position-relative(@mouseover="indicadorImagenZoom = false")
+    //-       Zoom(
+    //-         lente="150" 
+    //-         :baja-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')" 
+    //-         :alta-resolucion="require('@/assets/curso/temas/tema5/tema5-31.png')"
+    //-       )
+    //-       .indicador--hover(v-if="indicadorImagenZoom")
+    //-       figcaption Nota. Tomada de http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86
 
 </template>
 
@@ -398,6 +449,12 @@ export default {
   data: () => ({
     // variables de vue
     indicadorImagenZoom: true,
+    link5A:
+      'https://www.ibal.gov.co/sites/default/files/ibal/sites/default/files/images/stories/MATRIZ%20DE%20REQUISITOS%20LEGALES%20IBAL%20Version%2012.pdf',
+    link5B:
+      'https://studylib.es/doc/6457721/normograma---contraloria-general-del-departamento-norte-de',
+    link5C:
+      'http://www.invemar.org.co/documents/10182/0/Matriz+de+Requisitos+Legales+STA+INVEMAR+mayo+2020/7c2e04c8-ed9f-4c0c-b299-9ea68e6f4e86',
     linkA:
       'https://www.mintrabajo.gov.co/documents/20147/0/DUR+Sector+Trabajo+Actualizado+a+15+de+abril++de+2016.pdf/a32b1dcf-7a4e-8a37-ac16-c121928719c8',
   }),

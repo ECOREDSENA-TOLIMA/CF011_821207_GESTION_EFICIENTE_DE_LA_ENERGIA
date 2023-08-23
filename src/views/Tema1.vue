@@ -181,7 +181,7 @@
           p.titulo.pb-0.mb-0 <b>Figura 1.</b> <i>Estructura organizacional Ecopetrol S.A</i> 
         figure
           img(src='@/assets/curso/temas/tema1/tema1-13.png')
-          figcaption Nota. Tomada de Ecopetrol S.A. (2020).
+          figcaption Nota. Tomada de Ecopetrol S.A. (2022).
 
       .col-12.mt-5(data-aos="fade-right")
         p La estructura de una organización puede ser flexible y abierta o, por el contrario, tradicional y rígida; de ahí que las organizaciones puedan adoptar, de acuerdo con sus necesidades particulares, alguno de los siguientes tipos de estructura:
