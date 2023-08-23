@@ -101,7 +101,7 @@
             .row.justify-content-center.align-items-center
               .col-12
                 p 1) El producto está disponible en el mercado y en grandes cantidades.
-              .col-12.col-md-10
+              .col-12.col-md-12
                 figure
                   img(src='@/assets/curso/temas/tema2/tema2-10.svg', alt='')
           .col-md-6.col-12
